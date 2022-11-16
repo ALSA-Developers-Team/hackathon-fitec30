@@ -1,12 +1,14 @@
 const express = require('express');
 const cors = require('cors')
 const morgan = require('morgan')
+const dotenv = require('dotenv')
 
-const app = express();
+const app = express()
+dotenv.config()
 
 //** Middleware **//
 app.use(express.json());
-app.use(express.urlencoded({ extended: false }));
+app.use(express.urlencoded({ extended: false }))
 app.use(morgan('dev'))
 app.use(cors())
 app.set('etag', false)
