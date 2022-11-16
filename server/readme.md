@@ -49,3 +49,5 @@
 ㅤ***GetEmpireOfficers***
 ㅤㅤMethod: GET
 ㅤㅤEndPoint: ${BaseApiURL}/empireofficer 
+
+presentación: https://view.genial.ly/637569cd757e4d0013881dc7/presentation-alsa-devteam-hackatonoc
