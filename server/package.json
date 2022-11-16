@@ -1,0 +1,22 @@
+{
+  "name": "men_stack_api",
+  "version": "1.0.0",
+  "description": "A basic API created with MongoDB, ExpressJS, NodeJS",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server",
+    "dev": "nodemon server"
+  },
+  "author": "Salvador Rico, Aldo Lozano",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.26.1",
+    "cors": "^2.8.5",
+    "express": "^4.17.3",
+    "mongoose": "^6.3.1",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
